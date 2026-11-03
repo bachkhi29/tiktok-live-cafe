@@ -1,0 +1,16 @@
+node_modules/
+live/tts/
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
+live/artifacts/
+live/data/
+.browser-overlay/
+
+# User-provided music and recordings stay local.
+assets/radio/*
+!assets/radio/README.md
+.idea/
+.vscode/

@@ -1,0 +1,20 @@
+{
+  "name": "cafe-sau-12h",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive cafe, garden and mini-concert overlay for @_tuduylogic_",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check cafe.mjs && node --check tiktok-events.mjs && node --check control.js && node --check overlay.js && node --check audio-engine.js && node --check presets.js && node --check bubble-layout.js && node --check scene-renderer.js && node --check motion.js && node --check speech-service.mjs && node --check vietnamese-speech.mjs && node --check avatar-service.mjs && node --check render-loop.js && node --check render-clock.js",
+    "test": "node --test test/*.test.mjs",
+    "test:ui": "node scripts/verify-ui.mjs",
+    "test:phone": "node scripts/verify-phone.mjs",
+    "test:voice": "node scripts/verify-voice.mjs"
+  },
+  "dependencies": {
+    "msedge-tts": "2.1.1",
+    "tiktok-live-connector": "2.5.0",
+    "ws": "8.18.0"
+  }
+}

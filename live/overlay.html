@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#08090c"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="Cà Phê LIVE"><title>Cà Phê Sau 12h · Overlay 9:16</title><link rel="stylesheet" href="/live/style.css"><link rel="stylesheet" href="/live/studio-v2.css"><link rel="stylesheet" href="/live/studio-v3.css"><link rel="stylesheet" href="/live/party.css"></head>
+<body class="overlay-body"><div id="stage">
+<canvas id="scene" width="1080" height="1920" aria-label="Quán cà phê đêm với nhân vật tương tác"></canvas>
+<header class="overlay-header"><div class="overlay-topline"><span>☾ &nbsp; @_tuduylogic_</span><span id="liveBadge">CHỜ KẾT NỐI</span></div><h1 id="overlayTitle">Cà Phê<br>Sau 12h<span>.</span></h1><p id="overlaySubtitle">Một chiếc bàn, một câu chuyện.</p><div class="overlay-pills"><span id="overlayCount">0 khách ghé quán</span><span id="overlayDemo" hidden>0 DEMO</span><span id="sessionTime">00:00</span></div></header>
+<div class="overlay-radio"><span class="radio-symbol">♫</span><div><small>RADIO ĐÊM KHUYA</small><b id="overlayTrack">Nhạc nền của quán</b></div><div class="equalizer"><i></i><i></i><i></i><i></i></div></div>
+<section id="interactionGuide" aria-label="Bình luận để tương tác"><div class="party-guide-heading"><b>BÌNH LUẬN ĐỂ ĐIỀU KHIỂN NHÂN VẬT</b></div><div class="party-commands"><span>🕺 <b>nhảy</b></span><span>🎤 <b>hát</b></span><span>🎀 <b>múa</b></span><span>💃 <b>khiêu vũ</b></span><span>👏 <b>vỗ tay</b></span><span>👋 <b>vẫy tay</b></span><span>💡 <b>đèn</b></span></div><p id="performanceGuide">Vào LIVE là có nhân vật và chỗ ngồi ☕</p></section>
+<section id="radioQueueCard" aria-label="Hàng chờ và bình chọn nhạc"><div class="party-queue-heading"><b>♫ NHẠC TIẾP THEO</b><span id="queueRule">Mỗi người 1 phiếu</span></div><p id="orderInstruction" class="order-instruction">Bình luận <strong>!nhac + MÃ</strong> để order bài hát tiếp theo</p><p id="orderExample" class="order-example">Ví dụ: !nhac 5 · không gõ dấu +</p><ol id="publicQueue"></ol><div id="catalogCodes" aria-label="Mã bài trong thư viện"></div><p id="queueSummary">Nhiều người chọn hơn được ưu tiên · quà phá hòa</p></section>
+<section class="live-card support-ranking" aria-label="Top người ủng hộ">
+  <div class="live-card-heading"><h2>Top ủng hộ</h2><span id="supportRankMode">QUÀ THẬT</span></div>
+  <ol id="supportRank"><li class="support-empty">Ghế đã sẵn, quán chờ lời chào đầu tiên ☕</li></ol>
+</section>
+<section class="live-card support-goal" aria-label="Mục tiêu donate">
+  <div class="live-card-heading"><h2>Mục tiêu donate</h2><span id="supportGoalPercent">0%</span></div>
+  <h3 id="supportGoalTitle">Cùng thắp sáng quán</h3>
+  <div class="support-goal-numbers"><b id="supportGoalAmount">0 / 1.000 KC</b><span id="supportGoalState">Đang góp sức</span></div>
+  <div class="support-progress" role="progressbar" aria-label="Mục tiêu quà thật" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="supportGoalBar"><i id="supportGoalFill"></i></div>
+  <p id="supportGoalDemo" class="support-demo" hidden></p>
+  <div id="supportDemoBar" class="support-progress demo-progress" hidden><i id="supportDemoFill"></i></div>
+  <p class="live-card-note">Đủ mốc: sáng đèn 30 giây.</p>
+</section>
+<div id="giftBanner" class="gift-banner" role="status"><small>MỘT CHÚT ẤM ÁP TỪ</small><b id="giftName"></b><span id="giftDetail"></span></div>
+<section id="followBanner" role="status" aria-live="polite"><div class="follow-face"><img id="followAvatar" alt="" hidden><b id="followInitial">♡</b></div><div class="follow-copy"><div><small id="followHeading">CẢM ƠN BẠN ĐÃ FOLLOW</small><b id="followName"></b><em id="followPending"></em></div><p id="followMessage"></p></div></section>
+<div class="room-caption"><span id="sceneCaption">CHỌN MỘT CHỖ. KỂ MỘT CÂU CHUYỆN.</span><span id="partyStatus">CHỦ QUÁN ĐANG BIỂU DIỄN</span><span id="treeLabel" hidden></span></div>
+<button id="soundButton">♫ Bật âm thanh</button><span id="overlayConnection">Đang nối server…</span>
+</div><script src="/live/overlay.js" type="module"></script></body></html>
