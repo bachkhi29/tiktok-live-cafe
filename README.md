@@ -2,7 +2,7 @@
 
 Quán cà phê tương tác dành cho TikTok LIVE: người xem vào quán bằng nhân vật, trò chuyện, lên sân khấu nhảy/hát/múa và cùng chọn bài nhạc tiếp theo.
 
-Phát triển bởi [Bách · bachkhi29](https://github.com/bachkhi29), dùng trên kênh [@_tuduylogic_](https://www.tiktok.com/@_tuduylogic_). Dự án chạy cục bộ bằng **Node.js + WebSocket + HTML Canvas**, có Studio điều khiển và overlay dọc **1080 × 1920**.
+ Dự án chạy cục bộ bằng **Node.js + WebSocket + HTML Canvas**, có Studio điều khiển và overlay dọc **1080 × 1920**.
 
 ![Tổng quan quán cà phê tương tác và Studio điều khiển](docs/images/overview.png)
 
